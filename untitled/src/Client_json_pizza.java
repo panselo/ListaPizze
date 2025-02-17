@@ -66,6 +66,7 @@ public class Client_json_pizza {
                 in.close();
                 out.close();
                 requestSocket.close();
+                socket.close();
             } catch (Exception ioException) {
                 ioException.printStackTrace();
             }
